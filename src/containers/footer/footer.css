@@ -1,0 +1,130 @@
+.gpt3__footer{
+    display: flex;
+    flex-direction: column;
+    background: #031B34;
+}
+
+.gpt3__footer-heading h1{
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+
+    text-align: center;
+    letter-spacing: -0.04em;
+    margin-bottom: 5rem;
+}
+
+.gpt3__footer-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gpt3__footer-btn button{
+    width: 218px;
+    height: 65px;
+    background: #031B34;
+    border: 1px solid #ffff;
+
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 5rem;
+}
+
+.gpt3__footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gpt3__footer-links_logo {
+    width: 168px;
+    height: 85px;
+    margin-bottom: 2rem;
+}
+
+.gpt3__footer-links_div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0 2rem 0 0;
+}
+
+.gpt3__footer-links_logo p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 1rem;
+
+    color: #FFFFFF;
+}
+
+.gpt3__footer-links_div h4{
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.gpt3__footer-links_div p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0.5rem 0;
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.gpt3__footer-copyright{
+    text-align: center;
+    margin: 4rem 0 0 0;
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    font-feature-settings: 'liga' off;
+
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 850px){
+    .gpt3__footer-heading h1{
+        font-size: 44px;
+        line-height: 50px;
+    } 
+
+}
+
+@media screen and (max-width: 650px){
+    .gpt3__footer-links div{
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .gpt3__footer-heading h1{
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .gpt3__footer-btn p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .gpt3__footer-heading h1{
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
